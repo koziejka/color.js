@@ -51,7 +51,7 @@ color.bind(document.body, "backgroundColor")
 ### Functions
 
 #### `.set(value, pallete)`
-sets curent color, calls [`update`](#.update()) and returns `this`.
+sets curent color, calls [`update`](#update) and returns `this`.
 ```javascript
 var color = new Color()
 color.set("orange") // set color using color name
@@ -94,28 +94,28 @@ return `bool`
 
 #### `.invert()`
 inverts curent color  
-calls [`update`](#.update())  
+calls [`update`](#update)  
 returns `this`
 
 #### `.add(color)`
 adds R, G, B values of color taking into account the alpha channel  
-calls [`update`](#.update())  
+calls [`update`](#update)  
 return `this`
 
 #### `.subtract(color)`
 subtract R, G, B values of color taking into account the alpha channel  
-calls [`update`](#.update())  
+calls [`update`](#update)  
 return `this`
 
 #### `.mix(color)`
 counts the average of the colors include alpha channel  
-calls [`update`](#.update())  
+calls [`update`](#update)  
 return `this`
 
 ----------
 
 #### `.bind(object, prop)`
-using `bind` function, you can create connections between the properties of HTML elements and kolorm that are automatically updated by the [`update`](#.update()) function.
+using `bind` function, you can create connections between the properties of HTML elements and kolorm that are automatically updated by the [`update`](#update) function.
 
 ```html
 <div id="foo"><div>
