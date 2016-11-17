@@ -1,5 +1,5 @@
-# color.js
-color.js is a small library that allows for quick and easy manipulation of color, change of pallets and combine them with elements of HTML.  
+# colors.js
+colors.js is a small library that allows for quick and easy manipulation of color, change of pallets and combine them with elements of HTML.  
 
 **current version** 1.0.2
 
